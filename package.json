@@ -1,0 +1,16 @@
+{
+  "author": "mklabs",
+  "name": "140-bytes-opts",
+  "description": "140 bytes fancy options parsing",
+  "version": "0.1.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "./opts",
+  "scripts": {
+    "test": "node test"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
