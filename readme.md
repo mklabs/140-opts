@@ -59,6 +59,30 @@ assert.deepEqual(argv, {
   blah: true
 });
 ```
+## Tests
+
+```
+    $ node test
+
+
+    Success!
+
+    $ --foo foo --bar bar -b baz -o woot --blah
+
+    { foo: 'foo', bar: 'bar', b: 'baz', o: 'woot', blah: true }
+
+    \o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/                        \o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/                        \o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/       We did it!       \o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/                        \o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/                        \o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/
+    \o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/\o/
+```
+
 
 ---
 
