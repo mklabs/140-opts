@@ -1,4 +1,4 @@
-# 140-opts
+# 140-opts [![Build Status](https://travis-ci.org/mklabs/140-opts.svg?branch=master)](https://travis-ci.org/mklabs/140-opts)
 
 > Command line arguments parser. This one doesn't do much. But it feets in a tweet.
 
@@ -6,21 +6,21 @@
 ## Installation
 
     $ npm install 140-opts
-    
+
 Alternately, to just copy the file into your repo and avoid an additional `package.json` dependency:
 
     $ curl https://cdn.rawgit.com/mklabs/140-opts/master/opts.js > 140-opts.js
-    
+
     # or maybe
     $ git clone https://github.com/mklabs/140-opts.git lib/140-opts
-    
+
 ## Code
- 
+
 ```js
 module.exports = function(a){return a.map(function(c,d){return{n:c.match(/^--?(.+)/),v:a[d+1]||!0}}).reduce(function(a,b){b.n&&(a[b.n[1]]=b.v);return a},{})}
 ```
 
-in a sligtly more readable way 
+in a sligtly more readable way
 
 ```js
 // 242-opts
