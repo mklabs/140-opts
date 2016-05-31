@@ -1,8 +1,6 @@
 # 140-opts
 
-> Command line arguments parser
-
-This one doesn't do much. But it feets in a tweet.
+> Command line arguments parser. This one doesn't do much. But it feets in a tweet.
 
 You'll probably laugh when you'll see the actual code...
 
