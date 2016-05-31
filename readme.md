@@ -10,14 +10,20 @@
 Alternately, to just copy the file into your repo and avoid an additional `package.json` dependency:
 
     $ curl https://cdn.rawgit.com/mklabs/140-opts/master/opts.js > 140-opts.js
+    
+    # or maybe
+    $ git clone https://github.com/mklabs/140-opts.git lib/140-opts
+    
+## Code
  
 ```js
 module.exports = function(a){return a.map(function(c,d){return{n:c.match(/^--?(.+)/),v:a[d+1]||!0}}).reduce(function(a,b){b.n&&(a[b.n[1]]=b.v);return a},{})}
 ```
 
-in a sligtly more readable way (very slightly)
+in a sligtly more readable way 
 
 ```js
+// 242-opts
 module.exports = function (a) {
   return a
     .map(function (c, d) {
@@ -31,7 +37,6 @@ module.exports = function (a) {
       return a;
     }, {})
 };
-
 ```
 
 ## Usage
