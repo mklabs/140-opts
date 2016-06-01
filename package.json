@@ -12,5 +12,6 @@
   },
   "scripts": {
     "test": "node test"
-  }
+  },
+  "engines" : ">=4"
 }
