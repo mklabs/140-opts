@@ -8,6 +8,7 @@ var args = ['--foo', 'foo', '--bar', 'bar', '-b', 'baz', '-o', 'woot', '--blah']
 var argv = opts(args);
 
 assert.deepEqual(argv, {
+  _: args,
   foo: 'foo',
   bar: 'bar',
   b: 'baz',
