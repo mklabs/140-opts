@@ -11,10 +11,13 @@ init-help:
 test:
 	node test
 
-release: version push publish
+release: ci version push publish
+
+ci:
+	git commit -am 'vnext'
 
 version:
-	standard-changelog -v
+	standard-changelog -v > CHANGELOG.md
 
 push:
 	git push origin master --tags
