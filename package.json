@@ -1,9 +1,9 @@
 {
   "name": "140-opts",
-  "description": "140 bytes fancy options parsing",
   "version": "1.2.0",
-  "license": "MIT",
+  "description": "140 bytes fancy options parsing",
   "main": "index.js",
+  "license": "MIT",
   "homepage": "https://github.com/mklabs/140-opts",
   "bugs": "https://github.com/mklabs/140-opts/issues",
   "repository": {
@@ -13,5 +13,8 @@
   "scripts": {
     "test": "node test"
   },
-  "engines": ">=4"
+  "engines": ">=4",
+  "devDependencies": {
+    "standard-changelog": "0.0.1"
+  }
 }
