@@ -14,10 +14,10 @@ test:
 release: ci version push publish
 
 ci:
-	git commit -am 'vnext'
+	git commit -am 'feat: vnext'
 
 version:
-	standard-changelog -v > CHANGELOG.md
+	standard-changelog -v > CHANGELOG.md; npm version minor
 
 push:
 	git push origin master --tags
