@@ -1,7 +1,7 @@
 {
   "name": "140-opts",
   "description": "140 bytes fancy options parsing",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "main": "index.js",
   "homepage": "https://github.com/mklabs/140-opts",
@@ -13,5 +13,5 @@
   "scripts": {
     "test": "node test"
   },
-  "engines" : ">=4"
+  "engines": ">=4"
 }
