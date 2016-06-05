@@ -11,13 +11,16 @@ init-help:
 test:
 	node test
 
-release: ci version push publish
+release: ci version npmv push publish
 
 ci:
-	git commit -am 'feat: vnext'
+	git commit -m 'feat: vnext'
 
 version:
-	standard-changelog -v > CHANGELOG.md; npm version minor
+	standard-changelog -v > CHANGELOG.md
+
+npmv:
+	npm version minor
 
 push:
 	git push origin master --tags
